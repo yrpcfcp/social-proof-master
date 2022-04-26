@@ -58,7 +58,7 @@ html{
       background-color:  hsl(300, 24%, 96%);
       border-radius: 10px;
       display: flex;
-      width: 27%;
+      width: 30%;
       min-height: 3%;
       margin: -380px 20px 200px 800px;
       padding: 20px;
@@ -68,7 +68,7 @@ html{
     background-color:  hsl(300, 24%, 96%);
     border-radius: 10px;
     display: flex;
-    width: 27%;
+    width: 30%;
     height: 4%;
     margin: -190px 20px 200px 840px;
     padding: 20px;
@@ -78,7 +78,7 @@ html{
     background-color:  hsl(300, 24%, 96%);
     border-radius: 10px;
     display: flex;
-    width: 27%;
+    width: 30%;
     height: 4%;
     margin: -190px 20px 200px 880px;
     padding: 20px;
