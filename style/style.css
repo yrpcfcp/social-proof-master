@@ -10,7 +10,11 @@ html{
   body{
     font-size: 1rem;
     font-family: 'League Spartan', sans-serif;
-  }
+    background: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: top left, bottom right ;
+      
+    }
 
   .header-container{
       display:flex;
@@ -84,3 +88,104 @@ html{
        margin: -5px 0 0 20px ;
        color: hsl(300, 43%, 22%);
    }
+
+   .reviw-container{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+    
+   }
+
+   .review1{
+       background-color: hsl(300, 43%, 22%);
+       border-radius: 15px 15px 15px 15px;
+       display: flex;
+       width: 25%;
+       height: 180px;
+       margin: 0 0 0 150px;
+   }
+
+   .text-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 75%; 
+    margin: 45px 0 0 -160px;
+}
+
+   .colton{
+       display: flex;
+       border-radius: 45px;
+       height: 15%;
+       margin: 25px;
+   }
+
+       h3{
+        color:hsl(0, 0%, 100%);
+        display: flex;
+        width: 35%;
+        font-size: 0.8rem;
+        margin: 30px 0 0 -10px;  
+    }
+    span{
+        display: flex;
+        color: hsl(300, 54%, 76%);
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: -15px 0 0 40px;  
+    }
+
+    .review2{
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 15px 15px 15px 15px;
+        display: flex;
+        width: 25%;
+        height: 180px;
+        margin: 20px 0 0 30px;
+    }
+
+    .text-review2{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9rem;
+        width: 75%; 
+        margin: 80px 0 0 -170px;
+    }
+
+    .irene{
+        display: flex;
+        margin: -15px 0 0 40px;
+        margin: 30px 25px 0 -20px;
+    }
+
+    .irene-img{
+       display: flex;
+       border-radius: 45px;
+       height: 15%;
+       margin: 25px;
+    }
+
+    .span1{
+        display: flex;
+        color: hsl(300, 54%, 76%);
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: -30px 0 0 30px;  
+    }
+
+    .review3{
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 15px 15px 15px 15px;
+        display: flex;
+        width: 25%;
+        height: 180px;
+        margin: 40px 0 0 30px;
+    }
+
+   /* .footer-image{
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: bottom;
+   } */
