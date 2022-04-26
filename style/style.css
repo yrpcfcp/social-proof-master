@@ -19,7 +19,7 @@ html{
   .header-container{
       display:flex;
       color: hsl(300, 43%, 22%);
-      margin: 40px 600px 0 30px;
+      margin: 40px 600px 0 60px;
       flex-direction: column;
       width: 45%;
       font-size: 1.8rem;
@@ -42,7 +42,7 @@ html{
       display: flex;
       color: hsl(300, 43%, 22%);
       flex-direction: column;
-      margin: 80px 0 0 -100px;
+      margin: 80px 0 0 -180px;
       justify-content: center;
 
   }
@@ -89,11 +89,11 @@ html{
        color: hsl(300, 43%, 22%);
    }
 
-   .reviw-container{
+   .review-container{
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
-    
+        margin: -50px 0 0 -100px;
    }
 
    .review1{
@@ -143,7 +143,7 @@ html{
         display: flex;
         width: 25%;
         height: 180px;
-        margin: 20px 0 0 30px;
+        margin: 20px 0 0 40px;
     }
 
     .text-review2{
@@ -151,13 +151,13 @@ html{
         flex-direction: column;
         font-size: 0.9rem;
         width: 75%; 
-        margin: 80px 0 0 -170px;
+        margin: 80px 0 0 -180px;
     }
 
     .irene{
         display: flex;
         margin: -15px 0 0 40px;
-        margin: 30px 25px 0 -20px;
+        margin: 30px 25px 0 -10px;
     }
 
     .irene-img{
@@ -182,7 +182,7 @@ html{
         display: flex;
         width: 25%;
         height: 180px;
-        margin: 40px 0 0 30px;
+        margin: 40px 0 0 40px;
     }
 
    /* .footer-image{
