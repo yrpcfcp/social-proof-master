@@ -19,7 +19,7 @@ html{
   .header-container{
       display:flex;
       color: hsl(300, 43%, 22%);
-      margin: 40px 600px 0 60px;
+      margin: 40px 600px -20px 60px;
       flex-direction: column;
       width: 45%;
       font-size: 1.8rem;
@@ -35,6 +35,7 @@ html{
       color: rgb(151, 151, 151);
       line-height: 1.5;
       width: 75%;
+      margin: -20px 0 0 0;
   }
 
 
@@ -42,7 +43,7 @@ html{
       display: flex;
       color: hsl(300, 43%, 22%);
       flex-direction: column;
-      margin: 80px 0 0 -180px;
+      margin: 130px 0 0 -160px;
       justify-content: center;
 
   }
@@ -54,40 +55,44 @@ html{
       padding: 2px;
   }
 
+  .startext{
+    margin: -5px 0 0 30px ;
+    color: hsl(300, 43%, 22%);
+    font-size: 1rem;
+}
+
   .aside-element{
       background-color:  hsl(300, 24%, 96%);
       border-radius: 10px;
       display: flex;
-      width: 30%;
-      min-height: 3%;
-      margin: -380px 20px 200px 800px;
-      padding: 20px;
+      width: 24%;
+      height: 3%;
+      margin: -330px 20px 200px 880px;
+      padding: 15px;
   }
 
-  .aside-element2{
+  .aside-element_2{
     background-color:  hsl(300, 24%, 96%);
     border-radius: 10px;
     display: flex;
-    width: 30%;
-    height: 4%;
-    margin: -190px 20px 200px 840px;
-    padding: 20px;
-   }
+    width: 24%;
+    height: 3%;
+    margin: -330px 20px 200px 840px;
+    padding: 15px;
+}
 
-   .aside-element3{
+.aside-element_3{
     background-color:  hsl(300, 24%, 96%);
     border-radius: 10px;
     display: flex;
-    width: 30%;
-    height: 4%;
-    margin: -190px 20px 200px 880px;
-    padding: 20px;
-   }
+    width: 24%;
+    height: 3%;
+    margin: -330px 20px 200px 800px;
+    padding: 15px;
+}
 
-   .startext{
-       margin: -5px 0 0 20px ;
-       color: hsl(300, 43%, 22%);
-   }
+
+  
 
    .review-container{
        display: flex;
@@ -96,29 +101,38 @@ html{
         margin: -50px 0 0 -100px;
    }
 
-   .review1{
+   .review1, .review2, .review3{
        background-color: hsl(300, 43%, 22%);
        border-radius: 15px 15px 15px 15px;
        display: flex;
-       width: 25%;
+       width: 24%;
        height: 180px;
-       margin: 0 0 0 150px;
+       margin: 0 0 0 130px;
    }
+   .review2{
+    margin: 20px 0 0 30px;
+    }
+
+    .review3{
+        margin: 40px 0 0 30px;
+    }
 
    .text-review{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: rgb(251, 234, 234);
+    font-weight: 400;
     font-size: 0.9rem;
     width: 75%; 
-    margin: 45px 0 0 -160px;
+    margin: 40px 0 0 -160px;
 }
 
    .colton{
        display: flex;
        border-radius: 45px;
        height: 15%;
-       margin: 25px;
+       margin: 20px 20px 20px 50px;
    }
 
        h3{
@@ -126,7 +140,7 @@ html{
         display: flex;
         width: 35%;
         font-size: 0.8rem;
-        margin: 30px 0 0 -10px;  
+        margin: 25px 0 0 -5px;  
     }
     span{
         display: flex;
@@ -134,58 +148,32 @@ html{
         flex-direction: row;
         flex-wrap: wrap;
         width: 95%;
-        margin: -15px 0 0 40px;  
+        margin: -27px 0 0 38px;  
     }
 
-    .review2{
-        background-color: hsl(300, 43%, 22%);
-        border-radius: 15px 15px 15px 15px;
-        display: flex;
-        width: 25%;
-        height: 180px;
-        margin: 20px 0 0 40px;
-    }
+    
 
-    .text-review2{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9rem;
-        width: 75%; 
-        margin: 80px 0 0 -180px;
-    }
 
-    .irene{
-        display: flex;
-        margin: -15px 0 0 40px;
-        margin: 30px 25px 0 -10px;
-    }
+/* ---------------------------------media queries------------------------------ */
 
-    .irene-img{
-       display: flex;
-       border-radius: 45px;
-       height: 15%;
-       margin: 25px;
-    }
+/* @media screen and(max-width: 375px) {
 
-    .span1{
-        display: flex;
-        color: hsl(300, 54%, 76%);
-        flex-direction: row;
+    body{
+    font-size: 1rem;
+    font-family: 'League Spartan', sans-serif;
+    background: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: top left, bottom right ;
+    }
+    .header-container, .aside-container, .review-container{
+        display:flex;
+        min-width: 100%;
         flex-wrap: wrap;
-        width: 95%;
-        margin: -30px 0 0 30px;  
+        align-items: center;
+        justify-content: center;
     }
 
-    .review3{
-        background-color: hsl(300, 43%, 22%);
-        border-radius: 15px 15px 15px 15px;
-        display: flex;
-        width: 25%;
-        height: 180px;
-        margin: 40px 0 0 40px;
-    }
+    
 
-   /* .footer-image{
-    background-image: url(../images/bg-pattern-bottom-desktop.svg);
-    background-position: bottom;
-   } */
+
+}  */
